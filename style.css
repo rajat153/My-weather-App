@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+
+*{
+   box-sizing:border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto; 
+    /* background: url('/nodejs/image/sunset.jpg') no-repeat center fixed;
+    background-size:cover;    */
+    background:linear-gradient(to top,rgb(239, 92, 92),rgba(155,140,10,1))
+}
+
+.container{
+    text-align: center;
+}
+
+input{
+    border:none;
+    padding:10px 5px;
+    border-radius:5px;  
+     
+}
+button{
+    background-color:rgb(255, 98, 0);
+    border:none;
+    padding:10px 15px;
+    margin:5px 0;
+    border-radius:5px;    
+    
+}
+
+button:hover{
+    background-color:rgba(255,98,0,0.6) ;
+}
+
