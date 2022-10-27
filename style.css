@@ -8,19 +8,21 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin:0px;
+    /* width:100vw; */
     min-height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin:0 auto; 
-    /* background: url('/nodejs/image/sunset.jpg') no-repeat center fixed;
-    background-size:cover;    */
-    background:linear-gradient(to top,rgb(239, 92, 92),rgba(155,140,10,1))
+    background: url('/nodejs/image/sunset.jpg') no-repeat center fixed;
+     background-size:100% 100%; /* for fully with the images /  */
+    /* background:linear-gradient(to top,rgb(239, 92, 92),rgba(155,140,10,1)) */
 }
 
 .container{
     text-align: center;
 }
+
 
 input{
     border:none;
